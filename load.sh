@@ -65,6 +65,3 @@ do
     echo
 done
 
-echo "Loading config:"
-$CURL -XPOST $ELASTICSEARCH/.kibana/config/4.3.1 \
-        -d @dashboards/config.json || exit 1
